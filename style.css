@@ -1,0 +1,61 @@
+@import url('https://fonts.google.com/specimen/Manrope');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    display: flex;
+    flex-direction:row;
+    border: 0.1px solid gray;
+    font-family: 'Manrope', sans-serif;
+    width:38%;
+    border-radius: 14px;
+    background-color: #fff;
+}
+#drawers{
+    position: relative;
+    width: 40%;
+}
+.title>h1{
+    width: 380px;
+    font-size: 18px;
+    color: rgb(63, 63, 63);
+    padding-left: 8%;
+    padding-top: 6%;
+}
+.title>h4{
+    font-size: 13px;
+    font-weight: lighter;
+    width: 350px;
+    padding-left: 8%;
+    padding-top: 5%;
+}
+.title>img{
+    border-radius: 60%;
+    width: 10%;
+    position: relative;
+    left: 9%;
+    top: 10%;
+}
+.title #name{
+    font-size: 13px;
+    font-weight: bold;
+    position: relative;
+    left: 25%;
+    top: -7%;
+
+}
+.title #date{
+    font-size: 11px;
+    font-weight: lighter;
+    position: relative;
+    left: 25%;
+    top: -6%;
+}
+.connect #share{
+    position: relative;
+    top: 80%;
+}
+.connect>div{
+    display: none;
+}
